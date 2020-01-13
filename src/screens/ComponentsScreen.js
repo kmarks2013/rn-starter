@@ -9,7 +9,7 @@ const ComponentsScreen = () => {
     {/* <Text style={styles.textStyle}></Text>
     <Text> Hi there!</Text>
     {greeting} */}
-    <Text style={styles.textStyle}> Getting started wtih react native!</Text>
+    <Text style={styles.textStyle}>Getting started wtih react native!</Text>
     <Text style={styles.greetingStyle}> My name is {myName} </Text>
     </View>
     )
