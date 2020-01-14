@@ -21,12 +21,16 @@ const ListScreen = () => {
             data={friends} 
             renderItem={({item}) =>{
                 // destructures element from this: element === {item: {name: 'Friend #1'}, index : 0}
-                return <Text>{item.name}</Text>
+                return <Text style={styles.textStyle}>{item.name}</Text>
             }} 
        />
     )
 }
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+    textStyle: {
+        marginVertical: 50
+    }
+})
 
 export default ListScreen
