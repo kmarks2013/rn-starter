@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, StyleSheet, View, Button, TouchableOpacity } from 'react-native';
 
 const HomeScreen = (props) => {
-  console.log(props.navigation)
+  // console.log(props.navigation)
   return (
     <View>
       <Text style={styles.text}>Hello World! </Text>
