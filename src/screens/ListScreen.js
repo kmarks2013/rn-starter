@@ -11,19 +11,23 @@ const ListScreen = () => {
         { name: 'Friend #5', age: "Age 53"/*key: "5"*/},
         { name: 'Friend #6', age: "Age 30"/*key: "6"*/},
         { name: 'Friend #7', age: "Age 20"/*key: "7"*/},
-        // { name: 'Friend #8', age: "Age 20"/*key: "8"*/},
-        // { name: 'Friend #9', age: "Age 20"/*key: "9"*/}
+        { name: 'Friend #8', age: "Age 29"/*key: "8"*/},
+        { name: 'Friend #9', age: "Age 40"/*key: "9"*/}
     ]
 
     return (
         <FlatList 
-            horizontal={false} //same as horizontal = {true} allows for side scrolling
-            showsHorizontalScrollIndicator={false}
+            // horizontal={false} //same as horizontal = {true} allows for side scrolling
+            // showsHorizontalScrollIndicator={false}
             keyExtractor= {friend => friend.name}
             data={friends} 
             renderItem={({item}) =>{
                 // destructures element from this: element === {item: {name: 'Friend #1'}, index : 0}
-                return <Text style={styles.textStyle}>{item.name} - {item.age}</Text>
+                return (
+                    <Text style={styles.textStyle}>
+                        {item.name} - {item.age}
+                    </Text>
+                )
             }} 
        />
     )
