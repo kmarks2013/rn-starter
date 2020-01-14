@@ -17,8 +17,8 @@ const ListScreen = () => {
 
     return (
         <FlatList 
-            horizontal={false} //same as horizontal = {true} allows for side scrolling
-            showsHorizontalScrollIndicator={false}
+            // horizontal={false} //same as horizontal = {true} allows for side scrolling
+            // showsHorizontalScrollIndicator={false}
             keyExtractor= {friend => friend.name}
             data={friends} 
             renderItem={({item}) =>{
