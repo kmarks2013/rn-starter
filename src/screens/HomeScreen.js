@@ -7,7 +7,7 @@ const HomeScreen = (props) => {
     <View>
       <Text style={styles.text}>Hello World! </Text>
       <Button 
-        onPress={() => console.log('button pressed')}
+        onPress={() => props.navigation.navigate("Components")}
         title="Go to Components Demo" 
       />
       <TouchableOpacity onPress={() => console.log('list press')}>
