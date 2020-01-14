@@ -11,8 +11,8 @@ const ListScreen = () => {
         { name: 'Friend #5', age: "Age 53"/*key: "5"*/},
         { name: 'Friend #6', age: "Age 30"/*key: "6"*/},
         { name: 'Friend #7', age: "Age 20"/*key: "7"*/},
-        // { name: 'Friend #8', age: "Age 20"/*key: "8"*/},
-        // { name: 'Friend #9', age: "Age 20"/*key: "9"*/}
+        { name: 'Friend #8', age: "Age 29"/*key: "8"*/},
+        { name: 'Friend #9', age: "Age 40"/*key: "9"*/}
     ]
 
     return (
