@@ -23,7 +23,7 @@ const ListScreen = () => {
             data={friends} 
             renderItem={({item}) =>{
                 // destructures element from this: element === {item: {name: 'Friend #1'}, index : 0}
-                return <Text style={styles.textStyle}>{item.name}</Text>
+                return <Text style={styles.textStyle}>{item.name} - {item.age}</Text>
             }} 
        />
     )
