@@ -13,10 +13,6 @@ const ImageScreen = () => {
     )
 }
 
-const styles = StyleSheet.create({
-    textStyle:{
-        fontSize: 50
-    }
-})
+const styles = StyleSheet.create()
 
 export default ImageScreen
