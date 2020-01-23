@@ -14,7 +14,7 @@ const navigator = createStackNavigator(
   {
     initialRouteName: 'Home',
     defaultNavigationOptions: {
-      title: "React Native Starter App"
+      title: "App"
     }
   }
 );
