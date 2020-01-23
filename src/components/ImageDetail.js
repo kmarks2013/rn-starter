@@ -2,13 +2,9 @@ import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 
 const ImageDetail = () => {
-    return <Text style={styles.textStyle}>Image Detail</Text>
+    return <Text>Show image of forest</Text>
 }
 
-const styles = StyleSheet.create({
-    textStyle:{
-        fontSize: 50
-    }
-})
+const styles = StyleSheet.create()
 
 export default ImageDetail
