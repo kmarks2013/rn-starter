@@ -24,4 +24,4 @@ const CounterScreen = () => {
 
 const styles = StyleSheet.create()
 
-export default CounterScreen 
+export default CounterScreen
