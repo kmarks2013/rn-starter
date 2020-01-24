@@ -5,19 +5,17 @@ const CounterScreen = () => {
     const [counter, setCounter] = useState(0)
     return (
         <View>
-            <Button 
-                title="Increase" 
-                onPress={() => {
-                    console.log("increase was clicked")
-                    }
+            <Button
+                title="Increase"
+                onPress={() =>
+                    setCounter(counter + 1)
                 }
             />
             <Button 
                 title="Decrease"
-                onPress={() => {
-                    console.log('decrease was clicked')
-                    }
-                }  
+                onPress={() =>
+                    setCounter(counter - 1)
+                }
              />
             <Text>Current Count: {counter} </Text>
         </View>
