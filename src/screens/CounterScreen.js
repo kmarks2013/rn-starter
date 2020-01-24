@@ -2,11 +2,24 @@ import React from 'react'
 import { Text, View, StyleSheet, Button} from 'react-native'
 
 const CounterScreen = () => {
+    
     return (
         <View>
-            <Button title="Increase"/>
-            <Button title="Decrease"/>
-            <Text>Current Count:</Text>
+            <Button 
+                title="Increase" 
+                onPress={() => {
+                    console.log("increase was clicked")
+                    }
+                }
+            />
+            <Button 
+                title="Decrease"
+                onPress={() => {
+                    console.log('decrease was clicked')
+                    }
+                }  
+             />
+            <Text>Current Count: </Text>
         </View>
     )
 }
