@@ -8,3 +8,5 @@ const CounterScreen = () => {
         </View>
     )
 }
+
+const styles = StyleSheet.create()
