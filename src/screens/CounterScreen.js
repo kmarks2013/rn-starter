@@ -5,6 +5,7 @@ const CounterScreen = () => {
     return (
         <View>
             <Button title="Increase"/>
+            <Button title="Decrease"/>
             <Text>Current Count:</Text>
         </View>
     )
