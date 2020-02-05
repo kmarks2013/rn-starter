@@ -9,7 +9,15 @@ const ColorScreen = () => {
             <Button title="Add a Color" onPress={ () => {
                 setColors([...colors, randomRgb()])
             }} /> 
-            <View style={{height:100, width:100, backgroundColor: randomRgb()}} /> 
+            <FlatList 
+                data={colors}
+                renderItem = {({item}) => {
+                    return (
+                        <View style={{height:100, width:100, backgroundColor: item}} /> 
+                    )
+                }}
+
+            />
         </View>
     ) 
 }
