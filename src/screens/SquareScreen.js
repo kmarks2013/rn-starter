@@ -8,7 +8,18 @@ const SquareScreen = () => {
     const [red, setRed] = useState(0)
     const [green, setGreen] = useState(0)
     const [blue, setBlue] = useState(0)
-    
+
+    const setColor = (color, change) => {
+        //color === 'red' 'green' or 'blue'
+        //change === + or - 15
+        if (color === 'red')
+            if (red + change >  255 || red + chagne < 0 ) {
+                return
+            } else {
+                setRed(red + change)
+            }
+    }
+
     // console.log(red)
     return <View>
         <ColorCounter 
