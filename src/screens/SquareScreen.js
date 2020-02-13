@@ -13,7 +13,7 @@ const SquareScreen = () => {
         //color === 'red' 'green' or 'blue'
         //change === + or - 15
         if (color === 'red')
-            if (red + change >  255 || red + chagne < 0 ) {
+            if (red + change >  255 || red + change < 0 ) {
                 return
             } else {
                 setRed(red + change)
