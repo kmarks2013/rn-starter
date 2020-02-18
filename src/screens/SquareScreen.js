@@ -5,13 +5,17 @@ import ColorCounter from '../components/ColorCounter'
 const COLOR_INCREMENT = 15
 
 const SquareScreen = () => {
- return (
-    <View>
-     <ColorCounter color="Red" />
-     <ColorCounter color="Blue"/>
-     <ColorCounter color="Green"/>
-    </View>
- )
+    const [red, setRed] = useState(0)
+    const [blue, setBlue] = useState(0)
+    const [green, setGreen] = useState(0)
+
+    return (
+        <View>
+        <ColorCounter color="Red" />
+        <ColorCounter color="Blue"/>
+        <ColorCounter color="Green"/>
+        </View>
+    )
 }
 const styles = StyleSheet.create({})
 
