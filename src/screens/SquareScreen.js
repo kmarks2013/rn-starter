@@ -2,9 +2,11 @@ import React, {useState} from 'react'
 import {View, Text, StyleSheet} from 'react-native'
 import ColorCounter from '../components/ColorCounter'
 
+//the color will cahnge faster by addning or subtracting 15 instead of 1
 const COLOR_INCREMENT = 15
 
 const SquareScreen = () => {
+    //creates the state for red blue and green
     const [red, setRed] = useState(0)
     const [blue, setBlue] = useState(0)
     const [green, setGreen] = useState(0)
