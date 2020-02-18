@@ -5,10 +5,11 @@ import ColorCounter from '../components/ColorCounter'
 const COLOR_INCREMENT = 15
 
 const SquareScreen = () => {
- return <View>
+ return (
+    <View>
      <Text> I should render multiple color changing buttons</Text>
- </View>
-    
+    </View>
+ )   
 }
 const styles = StyleSheet.create({})
 
