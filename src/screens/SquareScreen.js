@@ -7,7 +7,9 @@ const COLOR_INCREMENT = 15
 const SquareScreen = () => {
  return (
     <View>
-     <Text> I should render multiple color changing buttons</Text>
+     <ColorCounter color="Red" />
+     <ColorCounter color="Blue"/>
+     <ColorCounter color="Green"/>
     </View>
  )
 }
