@@ -9,7 +9,7 @@ const SquareScreen = () => {
     <View>
      <Text> I should render multiple color changing buttons</Text>
     </View>
- )   
+ )
 }
 const styles = StyleSheet.create({})
 
