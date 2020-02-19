@@ -60,7 +60,7 @@ const SquareScreen = () => {
     }
 
 
-    // console.log(red)
+    // console.log(blue)
     return (
         <View>
         <ColorCounter 
