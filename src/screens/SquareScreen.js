@@ -11,7 +11,30 @@ const SquareScreen = () => {
     const [blue, setBlue] = useState(0)
     const [green, setGreen] = useState(0)
 
-
+// // if statement for setColor
+//     const setColor = (color, change) => {
+//         // collor is going to be  equal too "red" "green" or 'blue'
+//         // change will = +15, -15
+//         if (color === 'red') {
+//             if (red + change > 255 || red + change < 0){
+//                 return
+//             } else{
+//                 setRed( red + change )
+//             }
+//         } else if (color === 'blue') {
+//             if (blue + change > 255 || blue +change < 0) {
+//                 return
+//             } else{
+//                 setBlue( blue + change)
+//             }
+//         } else if (color === 'green') {
+//             if (green + change > 255 || green +change < 0) {
+//                 return
+//             } else{
+//                 setGreen( green + change)
+//             }
+//         }
+//     }
     const setColor = (color, change) => {
         // collor is going to be  equal too "red" "green" or 'blue'
         // change will = +15, -15
