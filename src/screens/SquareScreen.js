@@ -8,8 +8,8 @@ const COLOR_INCREMENT = 15
 const SquareScreen = () => {
     //creates the state for red blue and green
     const [red, setRed] = useState(0)
-    const [blue, setBlue] = useState(0)
     const [green, setGreen] = useState(0)
+    const [blue, setBlue] = useState(0)
 
 // // if statement for setColor
 //     const setColor = (color, change) => {
@@ -35,6 +35,7 @@ const SquareScreen = () => {
 //             }
 //         }
 //     }
+
     const setColor = (color, change) => {
         switch (color) {
             case 'red':
