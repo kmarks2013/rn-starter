@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import {View, Text, StyleSheet} from 'react-native'
+import React, { useReducer } from 'react'
+import { View, Text, StyleSheet } from 'react-native'
 import ColorCounter from '../components/ColorCounter'
 
 //the color will cahnge faster by addning or subtracting 15 instead of 1
