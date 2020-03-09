@@ -6,10 +6,15 @@ import ColorCounter from '../components/ColorCounter'
 
 const COLOR_INCREMENT = 15
 
+const reducer = () ={
+    //state === {red: number, green:number, blue:number}
+    //action === {colorToChange: 'red' || 'green' || 'blue', amount: 15 || -15}
+}
 const SquareScreen = () => {
 
+    const [state, dispatch] = useReducer(reducer, { red: 0, green: 0, blue: 0 })
 
-    // console.log(blue)
+    console.log(state)
     return (
         <View>
             <ColorCounter
