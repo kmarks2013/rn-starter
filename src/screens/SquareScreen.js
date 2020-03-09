@@ -56,23 +56,22 @@ const SquareScreen = () => {
     // console.log(blue)
     return (
         <View>
-        <ColorCounter 
-            onIncrease={() => setColor("red", COLOR_INCREMENT)}
-            onDecrease={() => setColor("red", -1 * COLOR_INCREMENT)}
-            color="Red" 
-
-        />
-        <ColorCounter 
-            onIncrease={() => setColor( "blue", COLOR_INCREMENT )}
-            onDecrease={() => setColor( "blue", -1 * COLOR_INCREMENT )}
-            color="Blue"
-        />
-        <ColorCounter
-            onIncrease={() => setColor( "green", COLOR_INCREMENT )}
-            onDecrease={() => setColor( "green", -1 * COLOR_INCREMENT )} 
-            color="Green"
-        />
-        <View style={{height:150, width:150, backgroundColor:`rgb(${red}, ${green}, ${blue})`}}/>
+            <ColorCounter 
+                onIncrease={() => setColor("red", COLOR_INCREMENT)}
+                onDecrease={() => setColor("red", -1 * COLOR_INCREMENT)}
+                color="Red" 
+            />
+            <ColorCounter 
+                onIncrease={() => setColor( "blue", COLOR_INCREMENT )}
+                onDecrease={() => setColor( "blue", -1 * COLOR_INCREMENT )}
+                color="Blue"
+            />
+            <ColorCounter
+                onIncrease={() => setColor( "green", COLOR_INCREMENT )}
+                onDecrease={() => setColor( "green", -1 * COLOR_INCREMENT )} 
+                color="Green"
+            />
+            <View style={{height:150, width:150, backgroundColor:`rgb(${red}, ${green}, ${blue})`}}/>
         </View>
     )
 }
