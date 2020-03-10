@@ -20,7 +20,7 @@ const CounterScreen = () => {
             <Button
                 title="Increase"
                 onPress={() =>
-                    setCounter(counter + 1)
+                    dispatch({type:'change_counter', payload: 1})
                 }
             />
             <Button 
