@@ -26,7 +26,7 @@ const CounterScreen = () => {
             <Button 
                 title="Decrease"
                 onPress={() =>
-                    setCounter(counter - 1)
+                    dispatch({type:'change_counter', payload: -1})
                 }
              />
             <Text>Current Count: {counter} </Text>
