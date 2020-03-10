@@ -7,7 +7,7 @@ import ColorCounter from '../components/ColorCounter'
 const COLOR_INCREMENT = 15
 
 //state === {red: number, green:number, blue:number}
-//action === {colorToChange: 'red' || 'green' || 'blue', amount: 15 || -15}
+//action === {type: 'change_red' || 'change_green' || 'change_blue', payload: 15 || -15}
 
 const reducer = (state, action) =>{
     switch (action.colorToChange) {
