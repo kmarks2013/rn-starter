@@ -2,7 +2,10 @@ import React, {useReducer} from 'react'
 import { Text, View, StyleSheet, Button} from 'react-native'
 
 const CounterScreen = () => {
-    const [counter, setCounter] = useState(0)
+    
+    const [state, dispatch] = useReducer(reducer, {counter:0})
+    const {counter} = state
+ 
     return (
         <View>
             <Button
