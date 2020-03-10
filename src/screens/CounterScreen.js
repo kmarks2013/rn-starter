@@ -1,6 +1,15 @@
 import React, {useReducer} from 'react'
 import { Text, View, StyleSheet, Button} from 'react-native'
 
+const  reducer = (state, action) => {
+    switch(action.type){
+        case 'change_counter': 
+            return {...state, counter: state.counter + action.payload }
+        defalut:
+            return  state
+    }
+} 
+
 const CounterScreen = () => {
     
     const [state, dispatch] = useReducer(reducer, {counter:0})
