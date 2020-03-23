@@ -1,10 +1,10 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View, TextInput } from 'react-native'
 
 const TextScreen = () => {
     return (
         <View>
-            <Text>Sample Text</Text>
+            <TextInput/>
         </View>
     )
 }
