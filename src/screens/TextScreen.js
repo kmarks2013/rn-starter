@@ -5,6 +5,7 @@ const TextScreen = () => {
     const [password, setPassword]  = useState('')
     return (
         <View>
+            <Text> Enter Password:</Text>
             <TextInput
                 style={styles.input}
                 autoCapitalize="sentences"
