@@ -2,17 +2,18 @@ import React, {useState} from 'react'
 import { StyleSheet, Text, View, TextInput } from 'react-native'
 
 const TextScreen = () => {
-    const [name, setName]  = useState('')
-
+    const [password, setPassword]  = useState('')
     return (
         <View>
             <TextInput
                 style={styles.input}
                 autoCapitalize="sentences"
                 autoCorrect={false}
-                value={name}
-                onChange={ (newValue) => setName(newValue) }
+                value={password}
+                textContentType= "password"
+                onChangeText={ (newValue) => setPassword(newValue) }
             />
+            <Text>My name is {name}</Text>
         </View>
     )
 }
