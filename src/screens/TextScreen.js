@@ -4,7 +4,9 @@ import { StyleSheet, Text, View, TextInput } from 'react-native'
 const TextScreen = () => {
     return (
         <View>
-            <TextInput/>
+            <TextInput 
+                style={styles.input}
+            />
         </View>
     )
 }
