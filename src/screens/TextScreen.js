@@ -10,6 +10,8 @@ const TextScreen = () => {
                 style={styles.input}
                 autoCapitalize="sentences"
                 autoCorrect={false}
+                value={name}
+                onChange={ (newValue) => setName(newValue) }
             />
         </View>
     )
