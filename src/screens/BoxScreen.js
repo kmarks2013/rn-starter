@@ -23,6 +23,7 @@ const styles= StyleSheet.create({
     text1Style: {
         borderWidth: 3,
         borderColor: 'red',
+        flex: 1
     },
     text2Style: {
         borderWidth: 3,
@@ -32,6 +33,7 @@ const styles= StyleSheet.create({
     text3Style: {
         borderWidth: 3,
         borderColor: 'red',
+        flex: 1
     }
 })  
 
