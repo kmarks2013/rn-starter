@@ -28,7 +28,8 @@ const styles= StyleSheet.create({
     text2Style: {
         borderWidth: 3,
         borderColor: 'red',
-        alignSelf: 'stretch'
+        position: "absolute",
+        // alignSelf: 'stretch'
         // flex: 4
     },
     text3Style: {
