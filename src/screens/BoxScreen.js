@@ -16,9 +16,9 @@ const styles= StyleSheet.create({
         borderWidth: 3,
         borderColor: 'black',
         height:200,
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'space-around'
+        // flexDirection: 'row',
+        // alignItems: 'center',
+        // justifyContent: 'space-around'
     },
     text1Style: {
         borderWidth: 3,
