@@ -28,11 +28,15 @@ const styles= StyleSheet.create({
     text2Style: {
         borderWidth: 3,
         borderColor: 'red',
+        position: "absolute",
+        top: 0,
+        right: 0,
+        bottom: 0,
+        left: 0
         // right: 10
         // left: 10
         // top: 10,
         // bottom: 10
-        // position: "absolute",
         // alignSelf: 'stretch'
         // flex: 4
     },
