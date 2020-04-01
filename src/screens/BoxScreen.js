@@ -19,34 +19,59 @@ const styles= StyleSheet.create({
         borderWidth: 3,
         borderColor: 'black',
         height:200,
-        // flexDirection: 'row',
-        // alignItems: 'center',
+        flexDirection: 'row',
+        // alignItems: 'flex-start',
         // justifyContent: 'space-around'
     },
-    text1Style: {
-        borderWidth: 3,
-        borderColor: 'red',
-        // flex: 4
+    // text1Style: {
+    //     borderWidth: 3,
+    //     borderColor: 'red',
+    //     // flex: 4
+    // },
+    // text2Style: {
+    //     borderWidth: 3,
+    //     borderColor: 'red',
+    //     // ...StyleSheet.absoluteFillObject
+    //     // position: "absolute",
+    //     // top: 0,
+    //     // right: 0,
+    //     // bottom: 0,
+    //     // left: 0
+    //     // right: 10
+    //     // left: 10
+    //     // top: 10,
+    //     // bottom: 10
+    //     alignSelf: 'center'
+    //     // flex: 4
+    // },
+    // text3Style: {
+    //     borderWidth: 3,
+    //     borderColor: 'red',
+    //     // flex:2
+    //     alignSelf: "flex-end"
+    // }
+    view1Style :{
+        // margin: 10,
+        width: 100,
+        height:100,
+        backgroundColor: 'red',
+        flex:1
     },
-    text2Style: {
-        borderWidth: 3,
-        borderColor: 'red',
-        position: "absolute",
-        top: 0,
-        right: 0,
-        bottom: 0,
-        left: 0
-        // right: 10
-        // left: 10
-        // top: 10,
-        // bottom: 10
-        // alignSelf: 'stretch'
-        // flex: 4
+    view2Style :{
+        marginTop: 100,
+        width: 100,
+        height:100,
+        backgroundColor: 'green',
+        alignSelf: "center",
+        flex:1
     },
-    text3Style: {
-        borderWidth: 3,
-        borderColor: 'red',
-        // flex:2
+    view3Style :{
+        width: 100,
+        height:100,
+        backgroundColor: 'blue',
+        // position:"absolute",
+        // alignSelf: "flex-end",
+        flex:1
     }
 })  
 
