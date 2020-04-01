@@ -4,9 +4,12 @@ import { View, Text, StyleSheet } from 'react-native'
 const BoxScreen = () => {
     return (
         <View style={styles.viewStyle}>
-            <Text style={styles.text1Style}>Child 1</Text>
+            {/* <Text style={styles.text1Style}>Child 1</Text>
             <Text style={styles.text2Style}>Child 2</Text>
-            <Text style={styles.text3Style}>Child 3</Text>
+            <Text style={styles.text3Style}>Child 3</Text> */}
+            <View style={styles.view1Style}></View>
+            <View style={styles.view2Style}></View>
+            <View style={styles.view3Style}></View>
         </View>
     )
 }
