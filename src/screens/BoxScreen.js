@@ -27,6 +27,7 @@ const styles= StyleSheet.create({
     text2Style: {
         borderWidth: 3,
         borderColor: 'red',
+        flex: 1
     },
     text3Style: {
         borderWidth: 3,
