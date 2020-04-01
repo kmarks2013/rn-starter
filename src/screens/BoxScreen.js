@@ -16,13 +16,21 @@ const styles= StyleSheet.create({
         borderWidth: 3,
         borderColor: 'black',
         height:200,
+        flexDirection: 'row',
+        alignItems: 'center',
         justifyContent: 'space-around'
     },
-    textStyle: {
+    text1Style: {
         borderWidth: 3,
         borderColor: 'red',
-        // margin: 20,
-        // padding: 10
+    },
+    text2Style: {
+        borderWidth: 3,
+        borderColor: 'red',
+    },
+    text3Style: {
+        borderWidth: 3,
+        borderColor: 'red',
     }
 })  
 
