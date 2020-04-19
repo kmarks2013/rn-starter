@@ -3,26 +3,26 @@ import { View, Text, StyleSheet } from 'react-native'
 
 const BoxScreen = () => {
     return (
-        <View style={styles.viewStyle}>
+        <View style={styles.parentStyle}>
             {/* <Text style={styles.text1Style}>Child 1</Text>
             <Text style={styles.text2Style}>Child 2</Text>
             <Text style={styles.text3Style}>Child 3</Text> */}
-            <View style={styles.view1Style}></View>
-            <View style={styles.view2Style}></View>
-            <View style={styles.view3Style}></View>
+            <View style={styles.viewOneStyle}></View>
+            <View style={styles.viewTwoStyle}></View>
+            <View style={styles.viewThreeStyle}></View>
         </View>
     )
 }
 
 const styles= StyleSheet.create({
-    viewStyle: {
-        borderWidth: 3,
-        borderColor: 'black',
-        height:200,
-        flexDirection: 'row',
-        // alignItems: 'flex-start',
-        // justifyContent: 'space-around'
-    },
+    // parentStyle: {
+    //     borderWidth: 3,
+    //     borderColor: 'black',
+    //     height:200,
+    //     flexDirection: 'row',
+    //     // alignItems: 'flex-start',
+    //     // justifyContent: 'space-around'
+    // },
     // text1Style: {
     //     borderWidth: 3,
     //     borderColor: 'red',
@@ -50,29 +50,61 @@ const styles= StyleSheet.create({
     //     // flex:2
     //     alignSelf: "flex-end"
     // }
-    view1Style :{
-        // margin: 10,
-        width: 100,
-        height:100,
-        backgroundColor: 'red',
-        flex:1
+    // MY SOLUTION
+    // viewOneStyle :{
+    //     // margin: 10,
+    //     width: 100,
+    //     height:100,
+    //     backgroundColor: 'red',
+    //     flex:1
+    // },
+    // viewTwoStyle :{
+    //     marginTop: 100,
+    //     width: 100,
+    //     height:100,
+    //     backgroundColor: 'green',
+    //     alignSelf: "center",
+    //     flex:1
+    // },
+    // viewThreeStyle :{
+    //     width: 100,
+    //     height:100,
+    //     backgroundColor: 'blue',
+    //     // position:"absolute",
+    //     // alignSelf: "flex-end",
+    //     flex:1
+    // }
+    // COURSE SOLUTION
+    parentStyle:{
+        borderWidth: 3,
+        borderColor: 'black',
+        height:200,
+        //option 2
+        // height:100,
+        flexDirection: "row",
+        justifyContent: "space-between"
     },
-    view2Style :{
-        marginTop: 100,
-        width: 100,
-        height:100,
+    viewOneStyle: {
+        height: 50,
+        width: 50,
+        backgroundColor: 'red'
+    },
+    viewTwoStyle: {
+        height: 50,
+        width: 50,
         backgroundColor: 'green',
-        alignSelf: "center",
-        flex:1
+        // option 1
+        // marginTop: 50
+        // option 2,
+        // alignSelf: 'flex-end'
+        //option 3
+        top: 50
     },
-    view3Style :{
-        width: 100,
-        height:100,
-        backgroundColor: 'blue',
-        // position:"absolute",
-        // alignSelf: "flex-end",
-        flex:1
-    }
+    viewThreeStyle: {
+        height: 50,
+        width: 50,
+        backgroundColor: 'purple'
+    },
 })  
 
 export default BoxScreen
